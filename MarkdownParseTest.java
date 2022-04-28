@@ -65,7 +65,6 @@ public class MarkdownParseTest {
         assertEquals(List.of(), links);
     }
 
-    /*
      @Test 
     public void testFile8() throws IOException{ 
         Path fileName = Path.of("test-file8.md");
@@ -73,5 +72,4 @@ public class MarkdownParseTest {
         ArrayList<String> links = MarkdownParse.getLinks(content);
         assertEquals(List.of(), links);
     }
-    */
 }
