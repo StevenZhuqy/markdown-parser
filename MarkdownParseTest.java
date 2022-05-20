@@ -73,6 +73,7 @@ public class MarkdownParseTest {
         assertEquals(List.of(), links);
     }
 
+    /*
     @Test
     public void testSnippetThree() throws IOException{
         Path fileName = Path.of("snippet_3.md");
@@ -82,4 +83,5 @@ public class MarkdownParseTest {
             "https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule"));
         assertEquals(expectedLinks, links);
     }
+    */
 }
